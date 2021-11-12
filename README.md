@@ -3,7 +3,7 @@
 Set up a new project with this boilerplate with:
 
 ```sh
-npx create-next-app --example https://github.com/Consid-S5/nextjs-boilerplate
+npx create-next-app --example https://github.com/consid-s5/nextjs-boilerplate
 ```
 
 ## Scripts
