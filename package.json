@@ -14,7 +14,7 @@
 		"build-storybook": "build-storybook"
 	},
 	"dependencies": {
-		"@xstate/inspect": "^0.5.1",
+		"@xstate/inspect": "^0.5.2",
 		"@xstate/react": "^1.6.2",
 		"clsx": "^1.1.1",
 		"msw": "^0.35.0",
