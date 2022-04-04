@@ -15,7 +15,7 @@ npx create-next-app --example https://github.com/consid-s5/nextjs-boilerplate
 - `yarn build-storybook` / `npm run build-storybook` - Builds Storybook as a static website.
 - `yarn new` / `npm run new` - Launches an interactive guide that will help you create new components (based on the templates in the `plop-templates` folder).
 - `yarn test` / `npm test` - Runs the tests.
-- `yarn test:ci` / `npm test:ci` - Runs the tests for CI pipelines and reports errors with junit.
+- `yarn test:ci` / `npm run test:ci` - Runs the tests for CI pipelines and reports errors with junit.
 - `yarn lint` / `npm run lint` - Lint the project using Next.js default linting config.
 
 ## Tech stack
