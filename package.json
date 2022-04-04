@@ -15,7 +15,7 @@
 	},
 	"dependencies": {
 		"@xstate/inspect": "^0.5.1",
-		"@xstate/react": "^1.6.2",
+		"@xstate/react": "^2.0.1",
 		"clsx": "^1.1.1",
 		"msw": "^0.35.0",
 		"next": "latest",
