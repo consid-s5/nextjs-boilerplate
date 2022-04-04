@@ -46,7 +46,7 @@
 		"jest-axe": "^5.0.1",
 		"jest-junit": "^13.0.0",
 		"plop": "^3.0.5",
-		"postcss": "^8.3.11",
+		"postcss": "^8.4.12",
 		"postcss-nested": "^5.0.6",
 		"storybook-css-modules-preset": "^1.1.1",
 		"tailwindcss": "^2.2.19",
