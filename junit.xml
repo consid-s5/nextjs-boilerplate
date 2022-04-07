@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.45">
+  <testsuite name="ActionButton" errors="0" failures="0" skipped="0" timestamp="2022-04-07T09:56:44" time="1.026" tests="1">
+    <testcase classname="ActionButton should not have any accessibility issues" name="ActionButton should not have any accessibility issues" time="0.056">
+    </testcase>
+  </testsuite>
+</testsuites>
