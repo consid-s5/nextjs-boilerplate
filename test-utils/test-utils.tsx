@@ -10,7 +10,12 @@ import React from 'react';
 import { renderToString as reactDomRenderToString } from 'react-dom/server';
 import { render } from '@testing-library/react';
 
-const AllTheProviders: React.FC = ({ children }) => {
+interface Props {
+	/** React children */
+	children?: React.ReactNode
+}
+
+const AllTheProviders: React.FC<Props> = ({ children }) => {
 	// return <Router history={history}>{children}</Router>;
 	return <>{children}</>;
 };
