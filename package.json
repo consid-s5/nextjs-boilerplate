@@ -45,7 +45,7 @@
 		"identity-obj-proxy": "^3.0.0",
 		"jest": "^27.5.1",
 		"jest-axe": "^6.0.0",
-		"jest-junit": "^13.0.0",
+		"jest-junit": "^13.2.0",
 		"plop": "^3.0.5",
 		"postcss": "^8.4.12",
 		"postcss-nested": "^5.0.6",
