@@ -7,6 +7,9 @@ import clsx from 'clsx';
 import styles from './LayoutCustomPage.module.css';
 
 interface Props {
+	/** React children */
+	children?: React.ReactNode
+
 	/** Optional className for the grid wrapper */
 	className?: string;
 }

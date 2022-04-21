@@ -6,6 +6,9 @@ import React from 'react';
 import clsx from 'clsx';
 
 interface Props {
+	/** React children */
+	children?: React.ReactNode
+
 	/** Optional className for the grid wrapper */
 	className?: string;
 }

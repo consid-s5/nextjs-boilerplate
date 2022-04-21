@@ -7,6 +7,9 @@ import clsx from 'clsx';
 import LayoutOverlay from './LayoutOverlay';
 
 interface Props {
+	/** React children */
+	children?: React.ReactNode
+
 	/** max-width for the container. */
 	maxWidth?: 'standard' | 'narrow';
 

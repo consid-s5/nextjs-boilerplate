@@ -10,6 +10,9 @@ import { actionButtonMachine } from '@state-machines/actionButton.machine';
 export type customStateTypes = 'idle' | 'loading' | 'failure' | 'success';
 
 interface Props {
+	/** React children */
+	children?: React.ReactNode
+
 	/** Should the success checkmark be shown? */
 	showSuccess?: boolean;
 

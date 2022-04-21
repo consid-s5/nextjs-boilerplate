@@ -8,6 +8,9 @@ import clsx from 'clsx';
 type Height = 'small' | 'medium' | 'large' | 'ultra';
 
 interface Props {
+	/** React children */
+	children?: React.ReactNode
+
 	height?: Height;
 }
 
@@ -28,7 +31,7 @@ const getHeight = (height: Height) => {
 const Div: React.FC<Props> = ({ children, height = 'medium' }) => (
 	<div
 		className={clsx(
-			'p-4 rounded bg-grey mb-1 focus:outline-black',
+			'p-4 rounded bg-gray-200 mb-1 focus:outline-black',
 			getHeight(height)
 		)}
 		tabIndex={0}
