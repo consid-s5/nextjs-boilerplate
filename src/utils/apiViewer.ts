@@ -19,11 +19,19 @@ export const apiViewer = () => {
 
 			if (numKeyPresses >= 2) {
 				let path = window.location.pathname;
+				const url = `${process.env.NEXT_PUBLIC_API_HOST}${process.env.NEXT_PUBLIC_API_ENDPOINT}${path}.json`;
 
-				const url = `${process.env.NEXT_PUBLIC_API_HOST}${process.env.NEXT_PUBLIC_API_ENDPOINT}/${path}.json`;
-
-				window.open(url, '_blank');
+				fetchFromApi(url);
 			}
 		}
 	});
+};
+
+const fetchFromApi = async (url: string) => {
+	console.groupCollapsed('FETCH FROM API', url);
+	const res = await fetch(url);
+	const data = await res.json();
+	console.log(data);
+
+	console.groupEnd();
 };
