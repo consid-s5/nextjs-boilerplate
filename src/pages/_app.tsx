@@ -12,7 +12,7 @@ if (process.env.NEXT_PUBLIC_API_MOCKING === 'true') {
 }
 
 if (process.env.NEXT_PUBLIC_DEVTOOLS || debugMode) {
-	import(`../utils/apiViewer`)
+	import(`@utils/devtools/apiViewer`)
 		.then((module) => {
 			module.apiViewer();
 		})
