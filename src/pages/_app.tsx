@@ -7,16 +7,18 @@ const debugMode =
 	typeof document !== 'undefined' &&
 	document.cookie?.split('; ').indexOf('debug=true') !== -1;
 
-if (process.env.NEXT_PUBLIC_API_MOCKING === 'true') {
-	require('../../mocks');
+if (process.env.NODE_ENV === 'development') {
+	if (process.env.NEXT_PUBLIC_API_MOCKING === 'true') {
+		require('../../mocks');
+	}
 }
 
 if (process.env.NEXT_PUBLIC_DEVTOOLS || debugMode) {
 	import(`@utils/devtools/apiViewer`)
-		.then((module) => {
+		.then(module => {
 			module.apiViewer();
 		})
-		.catch((err) => {
+		.catch(err => {
 			console.error(err.message);
 		});
 }
