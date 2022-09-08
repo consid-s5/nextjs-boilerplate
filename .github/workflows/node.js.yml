@@ -27,5 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     # - run: npm i
     - run: npm i --force # For now, because several packages are using React 17 as highest version
-    - run: npm run build --if-present
+    - run: npm run dev --if-present
     - run: npm run test:ci
