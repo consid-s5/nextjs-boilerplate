@@ -50,7 +50,7 @@
 		"jest-junit": "^13.0.0",
 		"plop": "^3.0.5",
 		"postcss": "^8.4.12",
-		"postcss-nested": "^5.0.6",
+		"postcss-nested": "^6.0.0",
 		"storybook-css-modules-preset": "^1.1.1",
 		"tailwindcss": "^3.0.24",
 		"ts-jest": "^27.1.4",
