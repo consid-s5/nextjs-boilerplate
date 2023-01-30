@@ -43,7 +43,7 @@
 		"babel-loader": "^8.2.4",
 		"chokidar-cli": "^3.0.0",
 		"eslint": "<9.0.0",
-		"eslint-config-next": "12.1.5",
+		"eslint-config-next": "13.1.6",
 		"identity-obj-proxy": "^3.0.0",
 		"jest": "^27.5.1",
 		"jest-axe": "^6.0.0",
